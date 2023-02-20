@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "WongTrip",
+    "slug": "snack-6e5f6065-b66c-4b40-9a9f-e435886d1734",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/WongTrip.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.friendlyphop.WongTrip"
+    },
+    "android": {
+      "package": "com.friendlyphop.WongTrip",
+      "versionCode": 8,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "83e033f8-3487-449c-9945-c710f2baf66f"
+      }
+    }
+  }
+}
